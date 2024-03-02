@@ -135,11 +135,17 @@ const Demo = () => {
                 <p className='font-inter font-medium text-sm text-gray-700'>
                   {article.summary}
                 </p>
+                
               </div>
+             
             </div>
           )
         )}
+        {/* Include the iframe */}
+        
+    <iframe id="chatbot" src="https://www.chatbase.co/chatbot-iframe/XCHNNlWTJtaiXmG785baG" class="w-full h-full min-h-64 border-none"></iframe>
       </div>
+      
     </section>
   );
 };

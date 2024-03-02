@@ -1,8 +1,7 @@
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react"
-// @ts-ignore
 
 import Hero from "./components/Hero";
-// @ts-ignore
+
 import Demo from "./components/Demo";
 import "./app.css";
 
