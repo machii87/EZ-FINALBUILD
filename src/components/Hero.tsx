@@ -14,7 +14,7 @@ const Hero = () => {
           onClick={() =>
             window.open("https://github.com", "_blank")
           }
-          class='absolute top-0 right-0 mb-2000000000 rounded-full bg-black text-white py-2 px-4 hover:bg-white hover:text-black'
+          className='absolute top-0 right-0 mb-2000000000 rounded-full bg-black text-white py-2 px-4 hover:bg-white hover:text-black'
         >
           GitHub
         </button>

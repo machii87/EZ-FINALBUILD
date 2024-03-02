@@ -50,7 +50,7 @@ const Demo = () => {
   const handleCopy = (copyUrl) => {
     setCopied(copyUrl);
     navigator.clipboard.writeText(copyUrl);
-    setTimeout(() => setCopied(false), 3000);
+    setTimeout(() => setCopied("false"), 3000);
   };
 
   const handleKeyDown = (e) => {
@@ -143,7 +143,7 @@ const Demo = () => {
         )}
         {/* Include the iframe */}
         
-    <iframe id="chatbot" src="https://www.chatbase.co/chatbot-iframe/XCHNNlWTJtaiXmG785baG" class="w-full h-full min-h-64 border-none"></iframe>
+    <iframe id="chatbot" src="https://www.chatbase.co/chatbot-iframe/XCHNNlWTJtaiXmG785baG" className="w-full h-full min-h-64 border-none"></iframe>
       </div>
       
     </section>
